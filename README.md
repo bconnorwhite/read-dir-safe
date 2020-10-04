@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>read-dir-safe</h1>
+  <a href="https://github.com/bconnorwhite/read-dir-safe">
+    <img alt="read-dir-safe" src="assets/header.svg" />
+  </a>
   <a href="https://npmjs.com/package/read-dir-safe">
     <img alt="NPM" src="https://img.shields.io/npm/v/read-dir-safe.svg">
   </a>
@@ -19,7 +21,7 @@
 
 <br />
 
-> Read a directory recursively or non-recursively.
+> Read directories recursively or non-recursively.
 
 - Returns an array of relative file paths.
 - Rather than throwing, returns `undefined` on errors for the root directory you are reading (for example, if you try to read a directory that does not exist).
@@ -48,7 +50,7 @@ type Options = {
    * Recursively read child directories as well. Default: `true`
    */
   recursive?: boolean;
-    /**
+  /**
    * Whether to include directories in the results. Default: `false`
    */
   includeDirectories?: boolean;
@@ -70,8 +72,11 @@ type Options = {
 
 [MIT](https://opensource.org/licenses/MIT)
 
+<br />
+
 ## Related Packages
 
+- [fs-safe](https://www.npmjs.com/package/fs-safe): A simple fs wrapper that doesn't throw
 - [write-dir-safe](https://www.npmjs.com/package/read-dir-safe): Create directories and their parents recursively
 - [remove-dir-safe](https://www.npmjs.com/package/remove-dir-safe): Remove directories recursively or non-recursively
 - [read-file-safe](https://www.npmjs.com/package/read-file-safe): Read files without try catch
